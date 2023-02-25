@@ -8,7 +8,6 @@ int main()
   scanf("%f",&h);
   
   area = (b*h) / 2 ; 
-  
   printf("\n\n Area of Triangle is: %f",area); 
   
   return();
