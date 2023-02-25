@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   int a[10], n;
   int i, odd=0, even=0, odd_sum=0, even_sum=0;
@@ -25,5 +25,5 @@ void main()
   printf("Even: %d\n", even) ;
   printf("Sum of Odd Numbers: %d\n", odd_sum);
   printf("Sum of Even Numbers: %d\n", even_sum);
-  getch();
+  return 0;
 }
