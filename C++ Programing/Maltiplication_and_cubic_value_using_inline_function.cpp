@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream.h>
 using namespace std;
 
 inline int multiply(int num1, int num2) 
