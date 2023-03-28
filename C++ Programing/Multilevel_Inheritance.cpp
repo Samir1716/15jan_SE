@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include <iostream.h>
+#include <string.h>
 using namespace std;
 
 // Define Students class with roll number member
@@ -64,7 +64,7 @@ public:
     void read_result() 
     {
         read_test_marks();
-        cout << "Total marks: " << total_marks << endl;
+        cout << "Total Marks: " << total_marks << endl;
     }
 };
 
