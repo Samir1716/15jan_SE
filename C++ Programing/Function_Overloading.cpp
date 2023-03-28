@@ -50,17 +50,16 @@ int main()
     float num3 = 2.5, num4 = 1.5;
 
     // Perform integer addition, subtraction, multiplication, and division
-    cout << "Integer addition: " << add(num1, num2) << endl;
-    cout << "Integer subtraction: " << sub(num1, num2) << endl;
-    cout << "Integer multiplication: " << mul(num1, num2) << endl;
-    cout << "Integer division: " << div(num1, num2) << endl;
+    cout << "Integer Addition: " << add(num1, num2) << endl;
+    cout << "Integer Subtraction: " << sub(num1, num2) << endl;
+    cout << "Integer Multiplication: " << mul(num1, num2) << endl;
+    cout << "Integer Division: " << div(num1, num2) << endl;
 
     // Perform float addition, subtraction, multiplication, and division
-    cout << "Float addition: " << add(num3, num4) << endl;
-    cout << "Float subtraction: " << sub(num3, num4) << endl;
-    cout << "Float multiplication: " << mul(num3, num4) << endl;
-    cout << "Float division: " << div(num3, num4) << endl;
+    cout << "Float Addition: " << add(num3, num4) << endl;
+    cout << "Float Subtraction: " << sub(num3, num4) << endl;
+    cout << "Float Multiplication: " << mul(num3, num4) << endl;
+    cout << "Float Division: " << div(num3, num4) << endl;
 
     return 0;
 }
-  
