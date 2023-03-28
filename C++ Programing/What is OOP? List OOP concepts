@@ -1,0 +1,22 @@
+OOP stands for Object-Oriented Programming, a programming paradigm that focuses on organizing code into objects that contain data and methods for manipulating that data.
+Here are some of the key concepts in OOP:
+
+1. Encapsulation: The process of bundling data and methods together within a class to protect the data from outside access and manipulation.
+
+2. Inheritance: The ability for a class to inherit attributes and methods from a parent or base class.
+
+3. Polymorphism: The ability for objects of different classes to be used interchangeably, allowing for more flexibility and modularity in code.
+
+4. Abstraction: The process of hiding implementation details and exposing only the necessary information to the user.
+
+5. Classes and Objects: A class is a blueprint for creating objects, while an object is an instance of a class.
+
+6. Methods: Functions defined within a class that can be used to manipulate data within that class.
+
+7. Attributes: Data variables within a class that hold values that can be manipulated by the methods of that class.
+
+8. Interface: The set of methods that a class exposes to the outside world, allowing users to interact with the class in a controlled and predictable manner.
+
+9. Constructors and Destructors: Special methods that are called when an object is created or destroyed, respectively.
+
+10. Encapsulation: The concept of bundling data and methods together within a class to protect the data from outside access and manipulation.
