@@ -1,0 +1,10 @@
+OOP - Object Oriented Programming
+POP - Procedural Oriented Programming
+
+OOP and POP are two different ways of writing computer code.
+OOP organizes code into objects that contain data and methods, 
+while POP organizes code into procedures that are executed in a sequence. 
+OOP emphasizes hiding implementation details and supporting flexibility,
+while POP is more focused on the execution of procedures. 
+OOP is typically used in larger and more complex programs, 
+while POP is more commonly used in smaller and simpler programs.
