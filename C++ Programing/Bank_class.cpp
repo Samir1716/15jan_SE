@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include <iostream.h>
+#include <string.h>
 using namespace std;
 
 class BankAccount 
