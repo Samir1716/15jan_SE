@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 
 // Function overloading for addition
 int add(int a, int b) 
