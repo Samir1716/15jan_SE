@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 
 template <typename T>
 void selectionSort(T arr[], int n)
