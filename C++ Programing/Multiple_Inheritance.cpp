@@ -1,5 +1,5 @@
-#include <iostream.h>
-#include <string.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
 // Define Person class with name and age members
