@@ -1,5 +1,5 @@
-#include <iostream.h>
-#include <string.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
 // Define Students class with roll number member
