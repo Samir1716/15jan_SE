@@ -1,0 +1,30 @@
+<-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Link Pseudo-Class Example</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Link Pseudo-Class Example</h1>
+<ul>
+<li><a href="https://www.tops-int.com/category/jobs-careers">TOPS Technology</a></li>
+</ul>
+</body>
+</html>
+
+<-- style.css -->
+
+a {
+  color: navy;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
