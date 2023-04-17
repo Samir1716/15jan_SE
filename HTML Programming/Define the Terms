@@ -1,0 +1,23 @@
+1.	Website: A website is a collection of web pages that are related to each other and hosted on a web server. 
+    It is accessed by users via a web browser over the internet. A website can be used for various purposes like 
+    providing information, selling products or services, entertainment, education, etc.
+    
+2.	Webpage: A webpage is a single document that is displayed in a web browser when a user visits a website. 
+    It can contain various elements such as text, images, videos, links, forms, and interactive features. 
+    A website typically contains multiple web pages that are linked together to form a cohesive website.
+    
+3.	Web browser: A web browser is a software application that allows users to access and view websites on the internet. 
+    Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. Web browsers use various 
+    web technologies to render web pages, such as HTML, CSS, and JavaScript.
+    
+4.	Web server: A web server is a computer program that stores and delivers web pages to clients over the internet. 
+    When a user requests a webpage, the web server retrieves the necessary files and delivers them to the user's 
+    web browser. Popular web server software includes Apache, Nginx, and Microsoft IIS.
+    
+5.	HTML: HTML (Hypertext Markup Language) is a markup language used to create web pages. 
+    It defines the structure and content of a webpage using various HTML tags, such as <html>, <head>, 
+    <body>, <p>, <img>, and <a>. HTML is the foundation of all web pages and is interpreted by web browsers to display content.
+
+6.	CSS: CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a web page. 
+    It is used to control the layout, colors, fonts, and other visual aspects of a webpage. 
+    CSS is applied to HTML elements using selectors and declarations, such as color, font-size, and margin.
