@@ -1,0 +1,43 @@
+ 1. What is File function in python? What is keywords to create and write file.
+--> Function is a block of code or a piece of code which we can use again and again. readlines() : This function returns a list where each element is single line of that file. write() : This function writes a fixed sequence of characters to a file. writelines() : This function writes a list of string. append() : This function append string to the file instead of overwriting the file.
+
+13. Explain Exception handling? What is an Error in Python?
+--> Exception which disturbs the normal flow of the program. Exception which is handle by try and except block and this process is known as Exception Handling. In general, when a Python script encounters a situation that it cannot cope with, it raises an exception. An exception is a Python object that represents an error.
+
+14. How many except statements can a try-except block have? Name Some built-in exception classes: 
+--> More Then Zero except statements can try-except block. Name error,Syntax error,type error
+
+15. When will the else part of try-except-else be executed?
+--> When will the else part of try-except-else be executed? Explanation: The else part is executed when no exception occurs.
+
+16. Can one block of except statements handle multiple exception?
+--> yes one block of except statemnts handle multiple exception.
+
+17. When is the finally block executed?
+--> the finally block executes when the try block exits.
+
+18. What happens when „1‟== 1 is executed?
+-->  It simply evaluates to False and does not raise any exception.
+
+19. How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets. 
+--> First try clause is executed i.e. the code between try and except clause. If there is no exception, then only try clause will run, except clause will not get executed. If any exception occurs, the try clause will be skipped and except clause will run.
+
+21. What are oops concepts? Is multiple inheritance supported in java.
+--> oops concepts is Class, Object, Method, Inheritance, Polymorphism, Data Abstraction, and Encapsulation.
+Java doesn't support multiple inheritances of classes.
+
+22. How to Define a Class in Python? What Is Self? Give An Example Of A Python Class.
+--> The self variable in Python can also be used to access a variable field within the class definition. Let us understand this with the help of example code: class Student: def __init__(self, Alex): self.name = Alex #name created in constructor def get_student_name(self): return self.name 
+
+25. Explain Inheritance in Python with an example? What is init? Or What Is A Constructor In Python? 
+--> A triangle is a polygon with 3 sides. So, we can create a class called Triangle which inherits from Polygon . This makes all the attributes of Polygon class available to the Triangle class. We don't need to define them again
+
+ -Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. In Python the __init__() method is called the constructor and is always called when an object is created.
+
+ -A Constructor is a special kind of method that have same name as the class in python self variable do the same. It can be used to set the values of the members of an object.
+
+26. What is Instantiation in terms of OOP terminology? 
+-->  Instantiation − The creation of an instance of a class. Method − A special kind of function that is defined in a class definition. Object − A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods
+
+27. What is used to check whether an object o is an instance of class A? 
+--> Conclusion. The `isinstance()` function can be used to check if an object is an instance of a particular class
