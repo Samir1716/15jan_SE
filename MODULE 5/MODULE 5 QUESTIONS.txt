@@ -1,0 +1,105 @@
+1) Why Django should be used for web-development? Explain how you can create a project in Django?
+-> Django is best suited for creating cross-platform apps, high-security applications, and fast-deployment apps that can be easily modified.
+ 
+-->
+	STEP1: OPENING POWERSHELL.
+	STEP2: VERIFYING PYTHON INSTALLATION
+	STEP3: UPGRADING PIP
+	STEP4: CREATING A PROJECT DIRECTORY
+	STEP5: CREATING THE VIRTUAL ENVIRONMENT
+	STEP6: INSTALLING DJANGO
+	STEP7: CREATE THE DJANGO PROJECT
+	STEP8: RUNNING THE DEVLOPMENT SERVER
+
+2) How to check installed version of django?
+-> TYPE python -m django --version 
+
+3) Explain what does django-admin.py make messages command is used for ? 
+-> IT IS USED FOR PUTT OUT ALL OF STRINGS MARKED FOR TRANSLATION
+
+4) What is Django URLs ?make program to create django urls 
+-> URLconf is a set of patterns that Django will try to match the requested URL to find the correct view.
+
+	from django.contrib import admin
+	from django.urls import path
+
+	urlpatterns = [
+    	path('admin/', admin.site.urls),
+	]
+
+5) What is a QuerySet?Write program to create a new Post object in database.
+-> A collection of objects from your database .
+	
+	# models.py
+ from django.db import models
+
+ class Post(models.Model):
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    pub_date = models.DateTimeField('date published')
+
+    def __str__(self):
+        return self.title
+ from django.utils import timezone
+ from myapp.models import Post  
+# Replace 'myapp' with the actual name of your Django app
+
+ def create_post():
+    # Create a new Post object
+    new_post = Post(
+        title='Example Post',
+        content='This is the content of the post.',
+        pub_date=timezone.now()
+    )
+
+    # Save the Post object to the database
+    new_post.save()
+
+if __name__ == "__main__":
+    create_post()
+
+6) Mention what command line can be used to load data into Django? 
+-> python manage.py loaddata initial_data.json
+
+7) Explain what does django-admin.py make messages command is used for? 
+-> django-admin.py command messages used for 
+
+	django-admin startproject project_name	
+	startproject: Creates a new Django project.
+		
+	django-admin version
+	version: Checks the Django version installed on your system.
+	
+	django-admin makemessages
+	makemessages: Generates a message file.
+		
+	django-admin runserver
+	runserver: Starts a lightweight Web server on your system for development. The default server runs on port 8000 on the IP address 	127.0.0.1.
+	
+	python manage.py startapp app_name
+	startapp: Creates a new Django app within a project.
+	
+	python manage.py runserver
+	runserver: Starts the development server for the Django project.
+	
+	python manage.py makemigrations
+	makemigrations: Generates database migration files based on changes in models.
+		
+	python manage.py migrate
+	migrate: Applies pending database migrations.
+	
+	python manage.py createsuperuser
+	createsuperuser: Creates a superuser for the Django admin interface.
+	
+	python manage.py collectstatic
+	collectstatic: Collects static files from all installed apps into a single location.
+	
+	python manage.py test
+	test: Runs the tests for the Django project.
+
+	python manage.py shell
+	shell: Opens a Python interactive shell with the Django project’s environment loaded.
+	
+	python manage.py check
+	check: Performs a system check for common issues and errors in the Django project.
+	
